@@ -11,13 +11,13 @@ The heterogeneity of connectivity and communication protocols, coupled with the 
   * If the dataset is from the same distribution, train with the percentage (70%) of the ML model with a percentage and test the trained model with the remaining percentage (30%).
   * Assuming the training data (source) is a different distribution from the testing data (target), use the trained model from the source domain to identify or classify the different attacks in the target domain.
 * Evaluate the results
-<img width="1355" alt="Screenshot 2023-10-31 at 11 24 52 PM" src="https://github.com/Ethos-lab/research-project-p-a-t-s/assets/145452531/060dfd1a-05fa-4565-b651-5ef7e5558570">
+<img width="1355" alt="Proposed Approach" src="https://github.com/priscilla100/cross-env-attack-identification/blob/main/final-report/approach.png">
 
 ### Underlying Concept to achieve the objective of the project
-The cross-environment approach put forward in this research is that of Transductive transfer learning. This approach uses datasets different from the data used for training. The dataset in both the source and target domains are considered but related. However, the task performed is the same which in our case is anomaly detection or attack identification. The source domain trains the model and transfers the trained model to the target domain which is used to identify or categorize the attacks in the unlabelled target domain.
+The cross-environment approach put forward in this research is that of Transductive transfer learning. This approach uses datasets that are different from the data used for training. The dataset in both the source and target domains are considered but related. However, the task performed is the same which in our case is anomaly detection or attack identification. The source domain trains the model and transfers the trained model to the target domain which is used to identify or categorize the attacks in the unlabelled target domain.
 The translation of this concept and its application to our study is as follows:
 * The goal in the target domain with unlabelled is to predict the attack type using the knowledge from the trained model in the source domain.
 * The knowledge from the task performed in the source domain is transferred to the target domain.
 * The task performed in this study using transductive transfer learning is IoT device attack identification.
 * The data in the source and target domain are different but related with device type being commonality.
-<img width="1422" alt="Screenshot 2023-10-31 at 11 21 04 PM" src="https://github.com/Ethos-lab/research-project-p-a-t-s/assets/145452531/4c2a7e23-54c3-4453-b0c1-3c31d414c447">
+<img width="1422" alt="Screenshot 2023-10-31 at 11 21 04 PM" src="https://github.com/priscilla100/cross-env-attack-identification/blob/main/final-report/transfer.png">
